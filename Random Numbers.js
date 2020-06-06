@@ -11,7 +11,7 @@ var randomNumberBetween0and19=Math.floor(Math.random()*20);
 
 function randomInRange(ourMin,ourMax)
 {
-    var randomNumberBetweenRange=Math.floor(Math.round()*(ourmax-ourMin + 1)) + ourMin;
+    var randomNumberBetweenRange=Math.floor(Math.random()*(ourMax-ourMin + 1)) + ourMin;
 }
 
 randomInRange(1,9);
